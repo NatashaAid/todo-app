@@ -3,5 +3,5 @@ services:
     name: todo-app
     env: python
     buildCommand: "pip install -r requirements.txt && python db_create.py"
-    startCommand: "python db_create.py && python app.py"
+    startCommand: "python app.py"
     autoDeploy: true
