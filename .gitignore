@@ -16,4 +16,4 @@ todo.db
 logs/
 
 #venv
-myenv/
+*venv*
